@@ -1,0 +1,27 @@
+<?php
+/**
+ * The main template file.
+ *
+ * @package WordPress
+ * @subpackage Starkers
+ * @since Starkers HTML5 3.0
+ */
+ 
+get_header(); ?>
+ 
+    <?php get_template_part( 'loop', 'index' ); ?>
+ 
+<?php get_sidebar(); ?>
+<?php get_footer(	<footer>
+		<div id="footer">
+		<span class="footertext">
+		<p>© 2014 Jessica Esparza<br>626.327.8260</p>
+		</span>
+        <div class="footer-social">
+		<li><a href="https://www.linkedin.com/pub/jessica-esparza/56/818/666"><img src="img/linkedin_logo.png"></a></li>
+		<li><a href="http://chubbymittens.tumblr.com"><img src="img/tumblr_logo.png"></a></li>
+		<li><a> <a href="https://www.facebook.com/jessica.esparza.138"><img src="img/fb_logo.png"></a></li>
+		<li><a href="https://www.twitter.com/Fiend_Jess"><img src="img/twitter_logo.png"></a></li>
+		</div>
+		</div>	
+	</footer>); ?>
